@@ -20,7 +20,7 @@ async def quiz1(massage: types.Message):
         'Спанч боб',
         'Симпсоны'
     ]
-    photo = open('media/fdKZ-ZpN7iw.jpg', 'rb')
+    photo = open('d48f085e4841ae42c18fa10cd1de1526.jpeg', 'rb')
     await bot.send_photo(massage.chat.id, photo=photo)
     await bot.send_poll(
         chat_id=massage.chat.id,

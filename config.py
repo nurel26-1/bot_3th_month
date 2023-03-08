@@ -7,4 +7,4 @@ storage = MemoryStorage()
 TOKEN = config('TOKEN')
 
 bot = Bot(TOKEN)
-dp = Dispatcher(bot=bot, storage=storage)
+db = Dispatcher(bot=bot, storage=storage)
